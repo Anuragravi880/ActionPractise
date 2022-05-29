@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     services:
-      postgres:
+      post:
         image: postgres:14.1
         env:
           POSTGRES_USER: ${{ env.DATABASE_USER }}
