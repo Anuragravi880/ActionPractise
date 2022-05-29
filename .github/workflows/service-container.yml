@@ -1,9 +1,9 @@
 name: Seed Database
 on:
   push:
-    branches: [ main ]
+    branches: [ ch_01 ]
   pull_request:
-    branches: [ main ]
+    branches: [ ch_01 ]
   workflow_dispatch:
 
 env:
