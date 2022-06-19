@@ -18,6 +18,7 @@ import bios
 
 try:
     data_file = sys.argv[1]
+    print(data_file)
 except IndexError:
     sys.exit('ERROR: Input file not given.')
 
